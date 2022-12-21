@@ -19,14 +19,149 @@
         <img src="/img/logo.png" alt="App Logo" />
       </div>
       <div class="nav-links">
-        <div>
-          <button class="button-nav button-red">Login</button>
-        </div>
-        <div>
-          <button class="button-nav button-white">Sign Up</button>
-        </div>
+          <a href="login.html"><button class="button-nav button-red">Login</button></a>
+          <a href="register.html"><button class="button-nav button-white">Sign Up</button> </a>
       </div>
     </nav>
+  </div>
+  <div class="main-container">
+    <div class="main row">
+      <div class="filters-section col-md-3">
+        <div class="heading">
+          <span>Vehicles available for rental</span>
+        </div>
+        <div class="count"><span>289 Entries</span></div>
+        <div class="filters">
+          <div class="filters-title">Filter By</div>
+          <div class="filter-type">
+            <div class="filter-type--heading"><span>Car type</span></div>
+            <div class="filter-type--option"><input type="checkbox" name="carType" /> Compact</div>
+            <div class="filter-type--option"><input type="checkbox" name="carType" /> Standard</div>
+            <div class="filter-type--option"><input type="checkbox" name="carType" /> Premium</div>
+            <div class="filter-type--option"><input type="checkbox" name="carType" /> Luxury</div>
+            <div class="filter-type--option"><input type="checkbox" name="carType" /> SUV</div>
+          </div>
+          <div class="filter-type">
+            <div class="filter-type--heading"><span>Capacity</span></div>
+            <div class="filter-type--option"><input type="checkbox" name="capacity" /> 2-4 Passengers</div>
+            <div class="filter-type--option"><input type="checkbox" name="capacity" /> 5-7 Passengers</div>        
+          </div>
+          <div class="filter-type">
+            <div class="filter-type--heading"><span>Specification</span></div>
+            <div class="filter-type--option"><input type="checkbox" name="carType" /> Automatic</div>
+            <div class="filter-type--option"><input type="checkbox" name="carType" /> Manual</div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content-section col-md-9">
+        <div class="sort-bys">
+          <div>
+            <a href="#" class="active">Cheapest</a>
+          </div>
+          <div>
+            <a href="#">Recommended</a>
+          </div>
+        </div>
+        <div class="vehicles-list">
+          <div class="vehicles-single row">
+            <div class="vehicle-image col-md-4">
+              <img src="/img/car6.png" alt="Vehicle Image">
+            </div>
+            <div class="vehicle-info col-md-6">
+              <div class="info--title"><span>Nissan Versa</span></div>
+              <div class="info--type"><span>Compact</span></div>
+              <div class="info--features row">
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> 5 Passengers</div>
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> Automatic</div>
+                <div class="col-md-6"><img src="/img/mileage-icon.svg" /> Unlimited Mileage</div>
+                <div class="col-md-6"><img src="/img/ac-icon.svg" /> Air Conditioning</div>
+              </div>
+            </div>
+            <div class="col-md-2 vehicle-actions">
+              <div class="info--price">
+                <span class="info--amt">$60</span><span class="info--per">/per day</span>
+              </div>
+              <div class="reserve-btn">
+                <button class="button-reserve button-red">Login</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="vehicles-single row">
+            <div class="vehicle-image col-md-4">
+              <img src="/img/car2.png" alt="Vehicle Image">
+            </div>
+            <div class="vehicle-info col-md-6">
+              <div class="info--title"><span>Toyota 4Runner</span></div>
+              <div class="info--type"><span>SUV</span></div>
+              <div class="info--features row">
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> 5 Passengers</div>
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> Automatic</div>
+                <div class="col-md-6"><img src="/img/mileage-icon.svg" /> Unlimited Mileage</div>
+                <div class="col-md-6"><img src="/img/ac-icon.svg" /> Air Conditioning</div>
+              </div>
+            </div>
+            <div class="col-md-2 vehicle-actions">
+              <div class="info--price">
+                <span class="info--amt">$60</span><span class="info--per">/per day</span>
+              </div>
+              <div class="reserve-btn">
+                <button class="button-reserve button-red">Login</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="vehicles-single row">
+            <div class="vehicle-image col-md-4">
+              <img src="/img/car3.jpg" alt="Vehicle Image">
+            </div>
+            <div class="vehicle-info col-md-6">
+              <div class="info--title"><span>Nissan Versa</span></div>
+              <div class="info--type"><span>Compact</span></div>
+              <div class="info--features row">
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> 5 Passengers</div>
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> Automatic</div>
+                <div class="col-md-6"><img src="/img/mileage-icon.svg" /> Unlimited Mileage</div>
+                <div class="col-md-6"><img src="/img/ac-icon.svg" /> Air Conditioning</div>
+              </div>
+            </div>
+            <div class="col-md-2 vehicle-actions">
+              <div class="info--price">
+                <span class="info--amt">$60</span><span class="info--per">/per day</span>
+              </div>
+              <div class="reserve-btn">
+                <button class="button-reserve button-red">Login</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="vehicles-single row">
+            <div class="vehicle-image col-md-4">
+              <img src="/img/car4.jpg" alt="Vehicle Image">
+            </div>
+            <div class="vehicle-info col-md-6">
+              <div class="info--title"><span>Lexus 350</span></div>
+              <div class="info--type"><span>Compact</span></div>
+              <div class="info--features row">
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> 5 Passengers</div>
+                <div class="col-md-6"><img src="/img/automatic-icon.svg" /> Automatic</div>
+                <div class="col-md-6"><img src="/img/mileage-icon.svg" /> Unlimited Mileage</div>
+                <div class="col-md-6"><img src="/img/ac-icon.svg" /> Air Conditioning</div>
+              </div>
+            </div>
+            <div class="col-md-2 vehicle-actions">
+              <div class="info--price">
+                <span class="info--amt">$60</span><span class="info--per">/per day</span>
+              </div>
+              <div class="reserve-btn">
+                <button class="button-reserve button-red">Login</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>

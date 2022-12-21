@@ -6,6 +6,9 @@
 
 body {
   font-family: "Poppins", "Courier New", Courier, monospace;
+  display: flex;
+  min-width: 100vh;
+  flex-direction: column;
 }
 
 .button-nav {
@@ -30,15 +33,16 @@ body {
   border: 1px solid #FF4545;
 }
 
-.nav-container {
+.nav-container, .footer-container {
   padding: 0 5%;
 }
 
-.navbar {
+.navbar, .footer {
   display: flex;
   justify-content: space-between;
   padding: 2rem 0;
 }
+
 
 .navbar .nav-links {
   display: flex;
@@ -189,4 +193,10 @@ body {
 
 .filter-type--option input {
   margin-right: 10px;
+}
+
+.footer-container {
+  margin-top: auto;
+  background: #0C0D10;
+  color: #fff;
 }

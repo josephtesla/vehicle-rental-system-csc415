@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+}
+
+.button-nav {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  width: 8.2rem;
+}
+
+.button-red {
+  background: #FF4545;
+  color: #FFF;
+}
+
+.button-white {
+  color: #333333;
+  background: #fff;
+  transition: 0.2s all;
+}
+
+.button-white:hover {
+  border: 1px solid #FF4545;
+}
+
+.nav-container {
+  padding: 0 5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.nav-links div {
+  margin-left: 20px;
+}
